@@ -17,7 +17,7 @@ function getImage() {
   xhr.onreadystatechange = function() {
     if (xhr.readyState == 4 && xhr.status == 200) {
       resp = xhr.responseXML;
-      document.body.style.background = "url('" + resp.getElementsByTagName("url")[0].innerHTML + "') repeat 50% 50%";
+      document.body.style.backgroundImage = "url('" + resp.getElementsByTagName("url")[0].innerHTML + "')";
       document.getElementById("catImageAttribution").href = resp.getElementsByTagName("source_url")[0].innerHTML;
     }
   }
