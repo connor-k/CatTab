@@ -7,5 +7,9 @@
 
   "chrome_url_overrides" : {
     "newtab": "newTab.html"
-  }
+  },
+
+  "permissions": [
+    "https://catfacts-api.appspot.com/"
+  ]
 }
