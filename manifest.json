@@ -10,6 +10,7 @@
   },
 
   "permissions": [
-    "https://catfacts-api.appspot.com/"
+    "https://catfacts-api.appspot.com/",
+    "https://thecatapi.com/"
   ]
 }
