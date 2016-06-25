@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "CatTab",
+  "version": "1.0",
+
+  "description": "Cats in your new tabs <(^.^)>",
+
+  "chrome_url_overrides" : {
+    "newtab": "newTab.html"
+  }
+}
